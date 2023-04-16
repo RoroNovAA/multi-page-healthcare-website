@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 244, 245);
+}
+
+/* NAVIGATION BAR */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 130px 25px 70px;
+}
+
+.medifine-logo {
+    width: 150px;
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+    font-weight: 600;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li:first-child {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CONTACT FORM */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 500px; */
+    border: none;   
+    width: 360px;
+    height: 430px;
+    border-radius: 12px;
+    box-shadow: black 0px 0px 10px;
+    overflow: hidden;
+    /* background-color: rgb(240, 244, 245); */
+}
+
+main div h1 {
+    text-align: center;
+    padding: 23px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.input {
+    /* border: none; */
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 8px;
+    border-radius: 12px;
+    border: none;
+    padding: 7px 10px;
+    outline: none;
+    background-color: #fff;
+}
+
+textarea {
+    margin: 10px 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    resize: none;
+    outline: none;
+    height: 60px;
+    background-color: #fff;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    align-items: center;
+    color: #fff;
+    background-color:rgb(32, 188, 126);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin: 0px 20px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+

@@ -4,15 +4,6 @@
     box-sizing: border-box;
 }
 
-/* .stethoscope {
-    position: absolute;
-    width: 90%;
-    top: -60px;
-    right: -25%;
-    z-index: -1;
-} */
-
-
 body {
     overflow: hidden;
 }
@@ -42,6 +33,11 @@ nav ul {
 nav ul li:first-child {
     font-weight: bolder;
     font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
